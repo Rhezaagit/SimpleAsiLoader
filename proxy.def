@@ -1,0 +1,10 @@
+; A know you hate it but just remember this just template so it can run gta sa if this gone you F up
+EXPORTS
+    ov_clear=vorbisFileHook.ov_clear
+    ov_open=vorbisFileHook.ov_open
+    ov_read=vorbisFileHook.ov_read
+    ov_info=vorbisFileHook.ov_info
+    ov_time_total=vorbisFileHook.ov_time_total
+    ov_open_callbacks=vorbisFileHook.ov_open_callbacks
+    ov_time_seek=vorbisFileHook.ov_time_seek
+    ov_time_tell=vorbisFileHook.ov_time_tell
