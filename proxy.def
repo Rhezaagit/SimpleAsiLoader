@@ -1,4 +1,3 @@
-; A know you hate it but just remember this just template so it can run gta sa if this gone you F up
 EXPORTS
     ov_clear=vorbisFileHook.ov_clear
     ov_open=vorbisFileHook.ov_open

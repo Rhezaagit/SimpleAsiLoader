@@ -1,3 +1,6 @@
+//Written By Rhezaagit
+
+#include <processthreadsapi.h>
 #include <string.h>
 #include <windows.h>
 #include <dirent.h>
@@ -61,9 +64,18 @@ void CreateOriginal() {
     }
 }
 
+void ResetLog() {
+	FILE* f = fopen("SimpleAsiLoader.log", "w");
+	if (f) {
+		fwrite(NULL, 1, 0, f);
+	}
+}
+
 //The Main Function start When The Loader Begin 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) { //sont think to much bout the paramater it just decoration
     if (fdwReason == DLL_PROCESS_ATTACH) {
+    	ResetLog();
+    
         CreateOriginal();
         LoadAsi("./scripts/");
     }
