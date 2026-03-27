@@ -1,9 +1,9 @@
 EXPORTS
-    ov_clear=vorbisFileHook.ov_clear
-    ov_open=vorbisFileHook.ov_open
-    ov_read=vorbisFileHook.ov_read
-    ov_info=vorbisFileHook.ov_info
-    ov_time_total=vorbisFileHook.ov_time_total
-    ov_open_callbacks=vorbisFileHook.ov_open_callbacks
-    ov_time_seek=vorbisFileHook.ov_time_seek
-    ov_time_tell=vorbisFileHook.ov_time_tell
+    ov_clear=vorbisFileHooked.ov_clear
+    ov_open=vorbisFileHooked.ov_open
+    ov_read=vorbisFileHooked.ov_read
+    ov_info=vorbisFileHooked.ov_info
+    ov_time_total=vorbisFileHooked.ov_time_total
+    ov_open_callbacks=vorbisFileHooked.ov_open_callbacks
+    ov_time_seek=vorbisFileHooked.ov_time_seek
+    ov_time_tell=vorbisFileHooked.ov_time_tell
